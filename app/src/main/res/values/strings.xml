@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Quiz for Dsc Unilag</string>
+    <string name="Q1">1. I\'m hungry, and Brian is hungry. ... you hungry?</string>
+    <string name="ans1a">Is</string>
+    <string name="ans1b">Are</string>
+    <string name="ans1c">Do</string>
+    <string name="Q2">2. His sister likes to ... at a beach near our home.</string>
+    <string name="ans2a">swims</string>
+    <string name="ans2b">swim</string>
+    <string name="ans2c">swimming</string>
+    <string name="Q3">My friend and I ... at the National History Museum.</string>
+    <string name="ans3a">are</string>
+    <string name="ans3b">am</string>
+    <string name="ans3c">is</string>
+    <string name="Q4">They ... very much time to finish their work.</string>
+    <string name="ans4a">don\'t have</string>
+    <string name="ans4b">doesn"t have</string>
+    <string name="ans4c">don\'t has</string>
+    <string name="Q5"></string>
+    <string name="ans5a"></string>
+    <string name="ans5b"></string>
+    <string name="ans5c"></string>
+    <string name="submit_button">submit</string>
+    <string name="reset_button">reset</string>
+    <string name="name">name</string>
+    <string name="date">date</string>
 </resources>
