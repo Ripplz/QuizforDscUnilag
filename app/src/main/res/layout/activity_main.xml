@@ -45,27 +45,28 @@
                 android:paddingBottom="@dimen/space"
                 android:text="@string/Q1"
                 android:textStyle="bold" />
-
-            <RadioGroup
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <RadioButton
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ans1a" />
-
-                <RadioButton
-                    android:id="@+id/ans1"
+                    android:text="@string/removeOne"
+                    android:onClick="remove"/>
+                <TextView
+                    android:id="@+id/one_ans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ans1b" />
-
-                <RadioButton
+                    android:textStyle="bold"
+                    android:paddingHorizontal="@dimen/space"
+                    android:text=" "/>
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ans1c" />
-            </RadioGroup>
+                    android:text="@string/addOne"
+                    android:onClick="add"/>
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout

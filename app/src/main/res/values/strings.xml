@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Quiz for Dsc Unilag</string>
-    <string name="Q1">1. I\'m hungry, and Brian is hungry. ... you hungry?</string>
-    <string name="ans1a">Is</string>
-    <string name="ans1b">Are</string>
-    <string name="ans1c">Do</string>
+    <string name="Q1">1. Look at this series: 7, 10, 8, 11, 9, 12. What number should come next</string>
     <string name="Q2">2. Which of the following is a Nigerian past president?</string>
     <string name="ans2a">Goodluck Johnathan</string>
     <string name="ans2b">Shehu Shagari</string>
@@ -39,4 +36,6 @@
     <string name="ans10a">swims</string>
     <string name="ans10b">swim</string>
     <string name="ans10c">swimming</string>
+    <string name="addOne">-</string>
+    <string name="removeOne">+</string>
 </resources>

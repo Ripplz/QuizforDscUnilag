@@ -5,19 +5,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
     int score = 0;
+    int one_ans=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TextView ans = findViewById(R.id.one_ans);
+        ans.setText("0");
         Spinner seven = findViewById(R.id.seven);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.seven,android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -38,10 +40,21 @@ public class MainActivity extends AppCompatActivity {
         });
        }
        public void submit(){
-           RadioButton ans1 = findViewById(R.id.ans1);
-           if(ans1.isChecked())
+           TextView ans_one = findViewById(R.id.one_ans);
+           String ans = ans_one.getText().toString();
+           if(ans.equals("10"))
                Toast.makeText(MainActivity.this,"correct " + ++score,Toast.LENGTH_SHORT).show();
            else
                Toast.makeText(MainActivity.this,"wrong",Toast.LENGTH_SHORT).show();
        }
+       public void add(View v){
+        ++one_ans;
+           TextView ans = findViewById(R.id.one_ans);
+           ans.setText(""+one_ans);
+       }
+    public void remove(View v){
+        --one_ans;
+        TextView ans = findViewById(R.id.one_ans);
+        ans.setText(""+one_ans);
+    }
     }
