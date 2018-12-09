@@ -4,24 +4,39 @@
     <string name="ans1a">Is</string>
     <string name="ans1b">Are</string>
     <string name="ans1c">Do</string>
-    <string name="Q2">2. His sister likes to ... at a beach near our home.</string>
-    <string name="ans2a">swims</string>
-    <string name="ans2b">swim</string>
-    <string name="ans2c">swimming</string>
-    <string name="Q3">My friend and I ... at the National History Museum.</string>
+    <string name="Q2">2. Which of the following is a Nigerian past president?</string>
+    <string name="ans2a">Goodluck Johnathan</string>
+    <string name="ans2b">Shehu Shagari</string>
+    <string name="ans2c">Nyesomm Wike</string>
+    <string name="Q3">3. My friend and I ... at the National History Museum.</string>
     <string name="ans3a">are</string>
     <string name="ans3b">am</string>
     <string name="ans3c">is</string>
-    <string name="Q4">They ... very much time to finish their work.</string>
+    <string name="Q4">4. They ... very much time to finish their work.</string>
     <string name="ans4a">don\'t have</string>
     <string name="ans4b">doesn"t have</string>
     <string name="ans4c">don\'t has</string>
-    <string name="Q5"></string>
-    <string name="ans5a"></string>
-    <string name="ans5b"></string>
-    <string name="ans5c"></string>
+    <string name="Q5">5. what state in Nigeria can this bridge be found?</string>
+    <string name="ans5a">Lagos</string>
+    <string name="ans5b">Abuja</string>
+    <string name="ans5c">Rivers</string>
+    <string name="Q6">6. Is this the statue of liberty?</string>
+    <string name="Q7">7. This is carlos ... my friend and my classmate.</string>
     <string name="submit_button">submit</string>
     <string name="reset_button">reset</string>
     <string name="name">name</string>
     <string name="date">date</string>
+    <string name="on">true</string>
+    <string name="off">false</string>
+    <string-array name="seven">
+        <item>a) His</item>
+        <item>b) He</item>
+        <item>c) He\'s</item>
+    </string-array>
+    <string name="Q8">8. Is this a photo of the Eiffel tower? </string>
+    <string name="Q9">9. Is this the eko bridge located in Lagos,Nigeria?</string>
+    <string name="Q10">10. His sister likes to ... at a beach near our home.</string>
+    <string name="ans10a">swims</string>
+    <string name="ans10b">swim</string>
+    <string name="ans10c">swimming</string>
 </resources>
