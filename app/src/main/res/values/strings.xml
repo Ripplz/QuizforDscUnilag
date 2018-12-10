@@ -31,11 +31,13 @@
         <item>c) He\'s</item>
     </string-array>
     <string name="Q8">8. Is this a photo of the Eiffel tower? </string>
-    <string name="Q9">9. Is this the eko bridge located in Lagos,Nigeria?</string>
+    <string name="Q9">9. This is not the eko bridge in Lagos,Nigeria or is it?</string>
     <string name="Q10">10. His sister likes to ... at a beach near our home.</string>
     <string name="ans10a">swims</string>
     <string name="ans10b">swim</string>
     <string name="ans10c">swimming</string>
-    <string name="addOne">-</string>
-    <string name="removeOne">+</string>
+    <string name="addOne">+</string>
+    <string name="removeOne">-</string>
+    <string name="correct">correct</string>
+    <string name="wrong">wrong</string>
 </resources>
