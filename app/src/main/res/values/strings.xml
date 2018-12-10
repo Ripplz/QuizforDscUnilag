@@ -40,4 +40,6 @@
     <string name="removeOne">-</string>
     <string name="correct">correct</string>
     <string name="wrong">wrong</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
 </resources>
